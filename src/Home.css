@@ -1,0 +1,41 @@
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home h1 {
+    font-size: 3em;
+    color: #ff5722;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 1.5em;
+    color: #4caf50;
+  }
+  
+  .home a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #2196f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home a:hover {
+    background-color: #1976d2;
+  }
+
+  @media screen and (min-width: 768px) {
+    .home h1 {
+      font-size: 3em;
+    }
+  
+    .home p {
+      font-size: 1.5em;
+    }
+  }

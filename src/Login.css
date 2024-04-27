@@ -1,0 +1,60 @@
+.login {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login h1, .signup h1 {
+    font-size: 2em;
+    color: #ff5722;
+    margin-bottom: 20px;
+  }
+  
+  .login input, .signup input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .login button, .signup button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login button:hover, .signup button:hover {
+    background-color: #f57c00;
+  }
+  
+  .login p, .signup p {
+    margin-top: 15px;
+    font-size: 0.9em;
+    text-align: center;
+  }
+  
+  .login a, .signup a {
+    color: #2196f3;
+    text-decoration: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    .home h1 {
+      font-size: 3em;
+    }
+  
+    .home p {
+      font-size: 1.5em;
+    }
+  }

@@ -1,0 +1,52 @@
+.rewards {
+    padding: 20px;
+  }
+  
+  .rewards h1 {
+    font-size: 2.5em;
+    color: #9c27b0;
+    margin-bottom: 10px;
+  }
+  
+  .rewards p {
+    font-size: 1.2em;
+    color: #ff5722;
+    margin-bottom: 20px;
+  }
+  
+  .rewards ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .rewards li {
+    font-size: 1.1em;
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .rewards a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rewards a:hover {
+    background-color: #f57c00;
+  }
+
+  @media screen and (min-width: 768px) {
+    .home h1 {
+      font-size: 3em;
+    }
+  
+    .home p {
+      font-size: 1.5em;
+    }
+  }
